@@ -1,0 +1,4 @@
+Для графов определены следующие функции
+
+Add(other, m *Matrix) (*Matrix, error)  - сложение матриц графов
+Multiply(b, a *Matrix) *Matrix - перемножене матриц графов

@@ -1,0 +1,18 @@
+В данной программе реализованы следующие алгоритмы над графами:
+
+    1) (m *Matrix) BellmanFord(start int) ([]int, []int)
+    Алгоритм Беллмана форда по нахождению минимальных путей из вершины start во все другие вершины
+
+    2) (m *Matrix) Dijkstra(start int) (dist []int, prev [][]int)
+    Алгоритм Дейкстры по по нахождению минимальных путей из вершины start во все другие вершины
+
+    3) (m *Matrix) ShimbelDistanceMatrix(fun string) *Matrix
+    Матрица шимбала аргумент "min" "max" означает функцию в внутри
+
+    4) (m *Matrix) Shimbel_step(step int, fun string) *Matrix
+    Создает матрицу с шагом step шимбалла и  аргумент "min" "max" означает функцию в внутри
+
+    4) (m *Matrix) HowManuRoads(start, stop int) string
+    Подсчет количества дорог из вершины start в вершину stop
+
+
